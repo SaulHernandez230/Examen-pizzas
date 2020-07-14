@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Examen pizzas</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="libraries/p5.js"></script>
+    <script defer src="libraries/p5.dom.js"></script>
+    <script defer src="libraries/p5.sound.js"></script>
+    <script defer src="algoritmos.js"></script>
+    <script defer src="sketch.js"></script>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="texto">
+        <h1>REPARTIR PIZZA</h1>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <h2>Algoritmo Punto Pendiente</h2>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <h2>Algoritmo Punto Pend.</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Earum quidem incidunt vel amet aspernatur  distinctio.
+                Quia corporis aliquid itaque necessitatibus?
+              </p>
+              <label for="slices">Rebanadas</label>
+              <input type="number" id="slices1" min="2" value="2" />
+              <button onclick="splitPizza(1)">Partir</button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <h2>Algoritmo DDA</h2>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <h2>Algoritmo DDA</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Earum quidem incidunt vel amet aspernatur  distinctio.
+                Quia corporis aliquid itaque necessitatibus?
+              </p>
+              <label for="slices">Rebanadas</label>
+              <input type="number" id="slices2" min="2" value="2" />
+              <button onclick="splitPizza(2)">Partir</button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <h2>Algoritmo Bresenham</h2>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <h2>Algoritmo Bresenham</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Earum quidem incidunt vel amet aspernatur  distinctio.
+                Quia corporis aliquid itaque necessitatibus?
+              </p>
+              <label for="slices">Rebanadas</label>
+              <input type="number" id="slices3" min="2" value="2" />
+              <button onclick="splitPizza(3)">Partir</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
